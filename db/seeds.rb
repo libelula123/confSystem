@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+room1 = Room.create([{ name: 'REU1' }])
+room2 = Room.create([{ name: 'REU2' }])
+room3 = Room.create([{ name: 'REU3' }])
