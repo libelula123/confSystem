@@ -18,10 +18,6 @@ class UsersController < ApplicationController
 
   private
 
-  # def allowed_params
-  #   params.require(:user).permit(:email, :password_digest)
-  # end
-
   def allowed_params
     # binding.pry
     params.require(:user).permit(:email, :password, :password_confirmation)
